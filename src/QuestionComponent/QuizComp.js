@@ -81,6 +81,7 @@ const resetQuiz=()=>
 }
 
     return (
+        
         <div className='app'>
             {showScore ? (
                 <div className='score-section'>
@@ -113,6 +114,8 @@ const resetQuiz=()=>
             }
 
         </div>
+
+        
     );
 }
 

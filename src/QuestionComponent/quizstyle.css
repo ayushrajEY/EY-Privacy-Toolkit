@@ -12,8 +12,19 @@ body {
   color: #ffffff;
 }
 
+.background-image {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: 0;
+}
+
 body {
-  background-color:#2f922f;
+  /*background-color:#2f922f;*/
+  background-image: url('C:\React privacy Tool\EY-Privacy-Toolkit\src\QuestionComponent/bg.png');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +32,17 @@ body {
 }
 
 .app {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*.app {
   background-color: #252d4a;
   width: 400px;
   height: 200px;
@@ -29,7 +51,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: space-evenly;
-}
+}*/
+
 
 .score-section {
   display: flex;
