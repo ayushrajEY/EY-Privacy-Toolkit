@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -10,6 +11,9 @@ function App() {
 
   return (
     <div className="container">
+      <div className= "background-image">
+        <img src="bg.png"/>
+      </div>
       <div className="logo">
         <img src="logo.png" alt="React Logo" className="logo" />
       </div>
@@ -19,6 +23,8 @@ function App() {
         <p>The Questionaire will take 10 minutes to complete</p>
         <br></br>
         <h4>Click on the button to Continue</h4>
+      </div>
+      <div className="background-image">
       </div>
       <button className="rounded" onClick={handleFlip}>Continue</button>
     </div>

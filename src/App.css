@@ -16,12 +16,21 @@ body {
 }
 
 .logo {
-  position: absolute;
   top: 10px;
   left: 20px;
   width: 50px;
   height: auto;
   z-index: 1;
+}
+
+.background-image {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: 0;
 }
 
 .paper {
@@ -52,6 +61,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  z-index: 1;
 }
 
 .rounded:hover {
