@@ -47,6 +47,17 @@ body {
   margin: 50px auto;
 }
 
+button.rounded {
+  display: block;
+  margin: 0 auto;
+}
+
+.small-button {
+  width: 200px;
+  height: auto;
+  padding: 6px 12px;
+}
+
 .paper.flipped {
   transform: rotateY(180deg);
 }
