@@ -24,11 +24,11 @@ body {
 
 body {
   /*background-color:#2f922f;*/
-  background-image: url('C:\React privacy Tool\EY-Privacy-Toolkit\src\QuestionComponent/bg.png');
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  z-index: 0;
 }
 
 .app {
@@ -58,24 +58,34 @@ body {
   display: flex;
   font-size: 24px;
   align-items: center;
+  z-index: 1;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
 .question-section {
   width: 100%;
   position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
 }
 
 .question-count {
   margin-bottom: 20px;
+  color: #000;
+  z-index: 1;
 }
 
 .question-count span {
   font-size: 28px;
+  color: #000;
+  z-index: 1;
 }
 
 .question-text {
   margin-bottom: 12px;
+  font-style: bold;
+  color: #000;
+  z-index: 1;
 }
 
 .timer-text {
@@ -86,6 +96,7 @@ body {
   border: 5px solid rgb(255, 189, 67);
   border-radius: 15px;
   text-align: center;
+  z-index: 1;
 }
 
 /* ANSWERS/RIGHT SECTION */
@@ -94,6 +105,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 
 button {
@@ -108,24 +120,31 @@ button {
   align-items: center;
   border: none;
   cursor: pointer;
+  margin-bottom: 10px;
+  z-index: 1;
 }
 
 .correct {
   background-color: #2f922f;
+  z-index: 1;
 }
 
 .incorrect {
   background-color: #ff3333;
+  z-index: 1;
 }
 
 button:hover {
   background-color: #555e7d;
+  z-index: 1;
 }
 
 button:focus {
   outline: none;
+  z-index: 1;
 }
 
 button svg {
   margin-right: 5px;
+  z-index: 1;
 }

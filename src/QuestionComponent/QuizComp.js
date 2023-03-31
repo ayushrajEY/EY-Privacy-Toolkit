@@ -83,6 +83,9 @@ const resetQuiz=()=>
     return (
         
         <div className='app'>
+            <div className="background-image">
+                <img src="bg.png" />
+            </div>
             {showScore ? (
                 <div className='score-section'>
                     You have scored {score} out of {Questionbank.length}

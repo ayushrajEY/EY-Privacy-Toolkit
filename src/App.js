@@ -23,13 +23,13 @@ function App() {
             <img src="logo.png" alt="React Logo" className="logo" />
           </div>
           <div className={`paper ${isFlipped ? 'flipped' : ''}`} align="center">
-            <h1>WELCOME !</h1>
+            <h1 style={{ color: 'black' }}>WELCOME !</h1>
             <br />
-            <p>The Questionaire will take 10 minutes to complete</p>
+            <p style={{ color: 'black' }}>The Questionaire will take 10 minutes to complete</p>
             <br />
-            <h4>Click on the button to Continue</h4>
+            <h4 style={{ color: 'black' }}>Click on the button to Continue</h4>
+            <br />
           </div>
-          <div className="background-image"></div>
           <button className="rounded small-button" onClick={handleFlip}>Continue</button>
         </>
       )}
