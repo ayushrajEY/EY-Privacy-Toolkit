@@ -23,7 +23,7 @@ function App() {
             <img src="logo.png" alt="React Logo" className="logo" />
           </div>
           <div className={`paper ${isFlipped ? 'flipped' : ''}`} align="center">
-            <h1 style={{ color: 'black' }}>WELCOME !</h1>
+            <h1 style={{ color: 'black' }}>WELCOME TO EY!</h1>
             <br />
             <p style={{ color: 'black' }}>The Questionaire will take 10 minutes to complete</p>
             <br />
